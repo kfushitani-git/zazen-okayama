@@ -1,0 +1,563 @@
+[
+  {
+    "id": "sogenji",
+    "name": "曹源寺",
+    "reading": "そうげんじ",
+    "english": "SOGENJI",
+    "city": "岡山市",
+    "area": "bizen",
+    "region": "備前",
+    "sect": "臨済宗妙心寺派",
+    "description": "木々に包まれた境内と池泉庭園。岡山藩主・池田家ゆかりの禅寺で、静かな朝を。",
+    "image": "assets/sogenji.jpg",
+    "alt": "岡山市中区円山の曹源寺の本堂",
+    "address": "岡山県岡山市中区円山1069",
+    "lat": 34.659153,
+    "lng": 133.972717,
+    "phone": "086-277-8226",
+    "price": "要確認",
+    "priceNote": "坐禅の参加費",
+    "schedule": "毎週日曜 8:00–9:00（要確認）",
+    "visit": "7:00–17:00（観光機関の案内）",
+    "fullSchedule": "観光機関に毎週日曜日 8:00–9:00の案内があります。実施日・集合時刻・受入条件は参加前に電話でご確認ください。",
+    "booking": "日曜坐禅会への初参加は、電話で参加方法をご確認ください。",
+    "bookingLabel": "電話で参加方法を確認",
+    "bookingUrl": "tel:0862778226",
+    "access": "JR岡山駅から西大寺行きバスで約20分、「曹源寺」下車、徒歩約5分。",
+    "notice": "一般向け日曜坐禅会と、修行道場への入門・滞在は別です。修行道場公式サイトでは一般ゲストの滞在を受け付けていません。宿泊付き体験としての申込みはできません。",
+    "morning": true,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "日曜の朝",
+      "参加方法は要確認"
+    ],
+    "official": "https://sogenji.com/",
+    "photoUrl": "https://sogenji.com/",
+    "sources": [
+      {
+        "label": "岡山観光WEB｜基本情報",
+        "url": "https://www.okayama-kanko.jp/spot/detail_10138.html"
+      },
+      {
+        "label": "岡山県公式観光ガイド｜坐禅案内",
+        "url": "https://www.okayama-japan.jp/en/spot/10619"
+      },
+      {
+        "label": "曹源寺｜修行道場の受入方針",
+        "url": "https://sogenji.com/coming-to-sogenji/"
+      }
+    ],
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "hofukuji",
+    "name": "井山宝福寺",
+    "reading": "いやまほうふくじ",
+    "english": "HOFUKUJI",
+    "city": "総社市",
+    "area": "bichu",
+    "region": "備中",
+    "sect": "臨済宗東福寺派",
+    "description": "雪舟ゆかりのお寺で、禅堂に坐るひととき。定例会と、日程を相談できる体験があります。",
+    "image": "assets/hofukuji.jpg",
+    "alt": "総社市の井山宝福寺の庭と伽藍",
+    "address": "岡山県総社市井尻野1968",
+    "lat": 34.691394,
+    "lng": 133.734308,
+    "phone": "0866-92-0024",
+    "price": "500円",
+    "priceNote": "定例座禅会・志納金",
+    "schedule": "第2日曜 7:30–9:30",
+    "visit": "5:00–17:00",
+    "fullSchedule": "毎月第2日曜日（8月を除く）。7:15受付・初めての方への説明、7:30座禅開始、8:30法話・茶礼、9:30終了。",
+    "booking": "定例会：予約不要・中学生以上・志納金500円。別日程の座禅体験：電話予約・小学生以上・献瓦1,000円・全体で約1時間。研修も電話で相談できます。",
+    "bookingLabel": "電話で別日程の体験を相談",
+    "bookingUrl": "tel:0866920024",
+    "access": "JR総社駅から徒歩約30分、または車で約10分。岡山総社ICから車で約15分。",
+    "notice": "11月の開催日は公式内で不一致があります。通常案内は第2日曜ですが、2026年年間行事には11月9日（月）と記載されています。11月の実施日は電話でご確認ください。8月は定例会がお休みです。",
+    "morning": true,
+    "walkin": true,
+    "chair": false,
+    "tags": [
+      "定例会は予約不要",
+      "別日程は電話予約"
+    ],
+    "official": "http://iyama-hofukuji.jp/zazen.html",
+    "photoUrl": "http://iyama-hofukuji.jp/photoroom.html",
+    "sources": [
+      {
+        "label": "宝福寺公式｜座禅体験",
+        "url": "http://iyama-hofukuji.jp/zazen.html"
+      },
+      {
+        "label": "宝福寺公式｜参拝・交通案内",
+        "url": "http://iyama-hofukuji.jp/access.html"
+      },
+      {
+        "label": "岡山観光WEB",
+        "url": "https://www.okayama-kanko.jp/spot/detail_10821.html"
+      },
+      {
+        "label": "宝福寺公式｜2026年年間行事（日付に不一致あり）",
+        "url": "http://iyama-hofukuji.jp/event.html"
+      }
+    ],
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "entsuji",
+    "name": "円通寺",
+    "reading": "えんつうじ",
+    "english": "ENTSUJI",
+    "city": "倉敷市",
+    "area": "bichu",
+    "region": "備中",
+    "sect": "曹洞宗",
+    "description": "良寛さんが修行した玉島の古寺。日曜の早朝、白雲坐禅会で呼吸を調える時間を。",
+    "image": "assets/entsuji.jpg",
+    "alt": "倉敷市玉島の円通寺の参道と山門",
+    "address": "岡山県倉敷市玉島柏島451",
+    "lat": 34.541172,
+    "lng": 133.662894,
+    "phone": "086-522-2444",
+    "price": "500円",
+    "priceNote": "非会員1回・未成年者を除く",
+    "schedule": "毎週日曜 6:00〜",
+    "visit": "一般拝観の時間は要確認",
+    "fullSchedule": "毎週日曜日 6:00から約40分坐禅。その後、読経等があり通常は8:30まで（行事により変更）。初めての方は5:40まで、2回目以降は5:50までに集合。",
+    "booking": "白雲坐禅会の公式ページまたは電話で、前日20時までの事前申込みが推奨されています。寺院公式には当日受付の案内もありますが、受入可否は事前にご相談ください。非会員の参加費は1回500円で、会則に免除対象の記載があります。",
+    "bookingLabel": "公式ページで日程・申込みを確認",
+    "bookingUrl": "https://www.entsujizazenkai.org/",
+    "access": "玉島の円通寺公園に隣接。入口までの道順は白雲坐禅会公式ページの案内動画をご確認ください。",
+    "notice": "主催者の最新のお知らせでは、11月1日（日）は通常通り、11月8日（日）は6:30までです。前日20時までの申込みが推奨されています。",
+    "morning": true,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "事前申込み推奨",
+      "初参加は5:40集合"
+    ],
+    "official": "https://www.entsuji-kurashiki.jp/zazenkai.html",
+    "photoUrl": "https://www.entsuji-kurashiki.jp/",
+    "sources": [
+      {
+        "label": "円通寺公式｜坐禅会",
+        "url": "https://www.entsuji-kurashiki.jp/zazenkai.html"
+      },
+      {
+        "label": "白雲坐禅会｜最新のお知らせ・申込み",
+        "url": "https://www.entsujizazenkai.org/"
+      },
+      {
+        "label": "白雲坐禅会｜参加費",
+        "url": "https://www.entsujizazenkai.org/about-5"
+      }
+    ],
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "shorinji",
+    "name": "少林寺",
+    "reading": "しょうりんじ そうりゅうざん",
+    "english": "SHORINJI",
+    "city": "津山市",
+    "area": "mimasaka",
+    "region": "美作",
+    "sect": "曹洞宗",
+    "description": "津山の里山にある禅寺。坐禅と写経の「覚禅会」は、椅子での参加も相談できます。",
+    "image": null,
+    "alt": "",
+    "address": "岡山県津山市中北上1150",
+    "lat": 35.0668303191,
+    "lng": 133.8542531,
+    "phone": "0868-57-2303",
+    "price": "無料",
+    "priceNote": "覚禅会の参加費",
+    "schedule": "次回 11/9（月）9:00〜",
+    "visit": "一般拝観の時間は要確認",
+    "fullSchedule": "通常は毎月第2土曜日（8月を除く）。9:00坐禅・行茶、10:00読経・写経。2026年11月は9日（月）、12月は1日（火）に変更。12月7日（月）19:00には夜の坐禅会も予定。",
+    "booking": "覚禅会は申込み不要・参加無料。5名以上の団体は事前に電話連絡。坐禅と写経は一方のみの参加も可能です。筆ペンなどの道具は用意されています。",
+    "bookingLabel": "電話で参加について相談",
+    "bookingUrl": "tel:0868572303",
+    "access": "JR姫新線・坪井駅、追分駅が最寄り。詳しい経路は公式アクセスページをご確認ください。",
+    "notice": "2026年11月・12月は第2土曜日に覚禅会はありません。11月9日（月）・12月1日（火）の開催です。椅子で足を組まずに坐ることもできます。",
+    "morning": true,
+    "walkin": true,
+    "chair": true,
+    "tags": [
+      "覚禅会は予約不要",
+      "椅子で坐れる"
+    ],
+    "official": "https://www.shorinzenji.com/行事予定/",
+    "photoUrl": "https://www.shorinzenji.com/少林寺境内/",
+    "sources": [
+      {
+        "label": "少林寺公式｜2026年行事予定",
+        "url": "https://www.shorinzenji.com/行事予定/"
+      },
+      {
+        "label": "少林寺公式｜体験・椅子対応",
+        "url": "https://www.shorinzenji.com/体験/"
+      },
+      {
+        "label": "少林寺公式｜アクセス",
+        "url": "https://www.shorinzenji.com/アクセス/"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "night": true
+  },
+  {
+    "id": "zuiunji",
+    "name": "瑞雲寺",
+    "reading": "ずいうんじ りゅうおうざん",
+    "english": "ZUIUNJI",
+    "city": "矢掛町",
+    "area": "bichu",
+    "region": "備中",
+    "sect": "曹洞宗",
+    "description": "矢掛の本堂で、朝と日中の坐禅。初参加への説明があり、坐禅用の椅子も用意されています。",
+    "image": null,
+    "alt": "",
+    "address": "岡山県小田郡矢掛町矢掛1003",
+    "lat": 34.63094,
+    "lng": 133.5994,
+    "phone": "0866-82-1066",
+    "price": "要問い合わせ",
+    "priceNote": "公式ページに参加費の明記なし",
+    "schedule": "第3日曜 6:00–7:00／偶数月第1土曜 14:00〜",
+    "visit": "一般拝観の時間は要問い合わせ",
+    "fullSchedule": "月例の早朝坐禅会は毎月第3日曜日6:00〜7:00。日中坐禅会は偶数月の第1土曜日14:00から。本堂で開催し、椅子での参加もできます。直近の公式告知は2026年10月18日早朝会の案内（10月15日発表）です。",
+    "booking": "参加費・予約の要否は公式の行事案内に明記されていません。初参加は電話または公式問い合わせフォームから、直近の実施日と参加方法をご確認ください。",
+    "bookingLabel": "電話で日程・参加方法を確認",
+    "bookingUrl": "tel:0866821066",
+    "access": "井原鉄道・矢掛駅から徒歩約15分。バス「矢掛校前」から徒歩約10分。",
+    "notice": "月ごとのお知らせで開催日が変更されることがあります。料金と予約の要否は、電話または公式フォームで確認してからご参加ください。",
+    "morning": true,
+    "walkin": false,
+    "chair": true,
+    "tags": [
+      "椅子で坐れる",
+      "朝と日中の月例会"
+    ],
+    "official": "https://zuiunji-yakage.com/event/",
+    "photoUrl": "https://zuiunji-yakage.com/about/",
+    "sources": [
+      {
+        "label": "瑞雲寺公式｜行事・月例会",
+        "url": "https://zuiunji-yakage.com/event/"
+      },
+      {
+        "label": "瑞雲寺公式｜直近の早朝会案内",
+        "url": "https://zuiunji-yakage.com/info/1946/"
+      },
+      {
+        "label": "瑞雲寺公式｜アクセス",
+        "url": "https://zuiunji-yakage.com/access/"
+      }
+    ],
+    "coordinateSource": "寺院公式アクセスページのGoogle埋込地図の中心座標。所在地目安。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "kannonji",
+    "name": "観音寺",
+    "reading": "かんのんじ ぐぜいざん",
+    "english": "KANNONJI",
+    "city": "勝央町",
+    "area": "mimasaka",
+    "region": "美作",
+    "sect": "天台宗",
+    "description": "勝央町の観音寺で、ついたち参りと止観の坐禅。毎月の定例会と、予約制の体験があります。",
+    "image": "assets/new-kannonji.jpg",
+    "alt": "勝央町の観音寺（撮影当時の景観）",
+    "address": "岡山県勝田郡勝央町植月東895",
+    "lat": 35.076107,
+    "lng": 134.133255,
+    "phone": "0868-38-2488",
+    "price": "定例会は無料",
+    "priceNote": "予約制体験は1人500円〜",
+    "schedule": "毎月1日 9:00〜（坐禅は9:30〜）",
+    "visit": "一般拝観の時間は要問い合わせ",
+    "fullSchedule": "ついたち参りの定例会は毎月1日9:00開始。9:00本堂勤行、9:15客殿勤行、9:30坐禅、10:10頃お茶、10:30から写経・写仏等のワークショップ。予約制体験は約1時間で別途日時を相談します。",
+    "booking": "ついたち参りの定例会は予約不要・無料。別日程の体験は公式フォームから、希望日の約2週間前までに申込み。寺での体験は1人500円〜、出張体験は1人1,000円〜の目安です。",
+    "bookingLabel": "公式ページから体験を申し込む",
+    "bookingUrl": "https://www.kannonji-guzeizan.com/zazen",
+    "access": "JR姫新線・勝間田駅から車で約10分。中国自動車道・勝央ICから車で約10分。",
+    "notice": "定例会と予約制体験では料金・申込方法が異なります。予約制体験の具体的な日時・料金は寺院と相談して決まります。",
+    "morning": true,
+    "walkin": true,
+    "chair": false,
+    "tags": [
+      "定例会は予約不要",
+      "予約制体験あり"
+    ],
+    "official": "https://www.kannonji-guzeizan.com/zazen",
+    "photoUrl": "https://www.kannonji-guzeizan.com/keidai",
+    "sources": [
+      {
+        "label": "観音寺公式｜坐禅会・体験予約",
+        "url": "https://www.kannonji-guzeizan.com/zazen"
+      },
+      {
+        "label": "観音寺公式｜アクセス",
+        "url": "https://www.kannonji-guzeizan.com/access"
+      },
+      {
+        "label": "観音寺公式｜行事と写真",
+        "url": "https://www.kannonji-guzeizan.com/gyouzi"
+      },
+      {
+        "label": "地図座標：日本歴史地名大系 施設・地点項目データセット（CODH作成）doi:10.20676/00000456",
+        "url": "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000046600.html"
+      },
+      {
+        "label": "座標データのライセンス CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "coordinateSource": "CODH作成「日本歴史地名大系」施設・地点項目データセット doi:10.20676/00000456。観音寺・植月東895番地。CC BY 4.0。https://geoshape.ex.nii.ac.jp/nrct-poi/resource/34/340000046600.html",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "daitsuji",
+    "name": "大通寺",
+    "reading": "だいつうじ こうほうざん",
+    "english": "DAITSUJI",
+    "city": "矢掛町",
+    "area": "bichu",
+    "region": "備中",
+    "sect": "曹洞宗",
+    "description": "矢掛町小林の禅寺。禅堂での坐禅体験と、池泉観賞式庭園を案内しています。",
+    "image": "assets/new-daitsuji.jpg",
+    "alt": "矢掛町の大通寺（撮影当時の景観）",
+    "address": "岡山県小田郡矢掛町小林1815",
+    "lat": 34.63999222,
+    "lng": 133.5726244,
+    "phone": "0866-82-0909",
+    "price": "要問い合わせ",
+    "priceNote": "坐禅参加費。拝観料とは別に確認",
+    "schedule": "開催日時は電話で確認",
+    "visit": "3〜10月9:00–17:00／11〜2月10:00–16:00。月曜休（祝祭日は翌日）",
+    "fullSchedule": "やかげDMOの公式観光ページで禅堂での坐禅体験が案内されています。現在受け入れ可能な日時、集合時刻、所要時間は電話で確認してください。一般拝観の営業時間と坐禅の開催時刻は別です。",
+    "booking": "大通寺へ電話し、坐禅体験の希望日・人数を伝えて参加方法と料金を相談してください。観光ページに示される大人400円（個人）の料金は坐禅参加費と区別して確認が必要です。",
+    "bookingLabel": "電話で坐禅体験を相談",
+    "bookingUrl": "tel:0866820909",
+    "access": "井原鉄道・矢掛駅から車で約5分（約2.4km）。駐車場あり。",
+    "notice": "定例会と個別体験の現在の条件は寺院へご確認ください。一般拝観の営業時間・拝観料と、坐禅体験の日時・参加費は異なります。",
+    "morning": false,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "電話で日時相談",
+      "禅堂での体験"
+    ],
+    "official": "https://japan-yakage.jp/archives/spot/detail/11049",
+    "photoUrl": "https://japan-yakage.jp/archives/spot/detail/11049",
+    "sources": [
+      {
+        "label": "やかげDMO公式｜座禅（大通寺）",
+        "url": "https://japan-yakage.jp/archives/spot/detail/11049"
+      }
+    ],
+    "coordinateSource": "宗派公式の大通寺ページにあるGoogle埋込地図のq座標（https://sotozen-navi.com/detail/index_330029.html）。",
+    "researchNote": "曹洞禅ナビの寺院紹介には毎月第2日曜8:00〜9:00の掲載があるが、検索データを用いた商行為をご遠慮くださいというサイト全体注意があり、商用ガイドへのこの日時の転記は避け、DMO案内と電話確認を採用した。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "shoukinji",
+    "name": "松琴寺",
+    "reading": "しょうきんじ せいりゅうざん",
+    "english": "SHOUKINJI",
+    "city": "岡山市",
+    "area": "bizen",
+    "region": "備前",
+    "sect": "臨済宗妙心寺派",
+    "description": "岡山市中区・門田本町の禅寺。宗派公式には、火曜日の夜に参加できる坐禅会が案内されています。",
+    "image": null,
+    "alt": "",
+    "address": "岡山県岡山市中区門田本町4-2-29",
+    "lat": 34.6486499,
+    "lng": 133.9495474,
+    "phone": "086-272-4845",
+    "price": "無料",
+    "priceNote": "宗派公式掲載・要電話確認",
+    "schedule": "毎週火曜 19:00–20:00（要確認）",
+    "visit": "一般拝観の時間は要問い合わせ",
+    "fullSchedule": "臨済宗・黄檗宗の宗派公式「臨黄ネット」では、松琴寺坐禅会を毎週火曜日19:00〜20:00と案内しています。実施の有無や初参加の集合時刻は電話で確認してください。",
+    "booking": "宗派公式には予約の要否が明記されていません。電話で直近の開催有無、参加方法、料金をご確認ください。",
+    "bookingLabel": "電話で夜の坐禅会を確認",
+    "bookingUrl": "tel:0862724845",
+    "access": "岡山市中区門田本町。詳しい経路や入口・駐車場は電話で確認してください。",
+    "notice": "宗派公式が案内する寺院独自ドメインは確認時点で接続できませんでした。掲載情報を最新の実施保証とせず、参加前に電話確認をお願いします。",
+    "morning": false,
+    "walkin": false,
+    "chair": false,
+    "night": true,
+    "tags": [
+      "平日夜の坐禅",
+      "宗派公式の案内"
+    ],
+    "official": "https://rinnou.net/zen/meeting/?conditions%5B%5D=zazenkai&prefectures=%E5%B2%A1%E5%B1%B1%E7%9C%8C",
+    "photoUrl": "https://www.okayama-kanko.jp/okatabi/1077/page",
+    "sources": [
+      {
+        "label": "臨黄ネット公式｜岡山県の坐禅会・松琴寺",
+        "url": "https://rinnou.net/zen/meeting/?conditions%5B%5D=zazenkai&prefectures=%E5%B2%A1%E5%B1%B1%E7%9C%8C"
+      },
+      {
+        "label": "岡山観光WEB公式｜松琴寺の風景",
+        "url": "https://www.okayama-kanko.jp/okatabi/1077/page"
+      }
+    ],
+    "coordinateSource": "岡山県観光連盟公式記事の地図data-marker-lat/lng（松琴寺）。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "honkoji",
+    "name": "本光寺",
+    "reading": "ほんこうじ るりざん",
+    "english": "HONKOJI",
+    "city": "津山市",
+    "area": "mimasaka",
+    "region": "美作",
+    "sect": "黄檗宗",
+    "description": "津山市一宮の黄檗宗寺院。宗派公式に「ぼくとわたしよい子の坐禅教室」を案内しています。",
+    "image": null,
+    "alt": "",
+    "address": "岡山県津山市一宮332",
+    "lat": 35.0965015,
+    "lng": 133.9930189,
+    "phone": "0868-27-0328",
+    "price": "基本500円",
+    "priceNote": "宗派公式掲載。条件は電話相談",
+    "schedule": "申込みにより随時",
+    "visit": "一般拝観の時間は要問い合わせ",
+    "fullSchedule": "宗派公式では、坐禅教室を申込みにより随時開催と案内しています。固定の曜日・開始時刻の記載はありません。希望する日程や対象年齢を寺院へご相談ください。",
+    "booking": "本光寺に電話で希望日時・人数・対象年齢を伝えて相談。宗派公式の会費案内は基本500円で、無料奉仕にも応じる旨が記されています。最終条件は寺院にご確認ください。",
+    "bookingLabel": "電話で坐禅教室を相談",
+    "bookingUrl": "tel:0868270328",
+    "access": "JR津山駅からバスで約15分の案内があります。路線・最寄り停留所は電話で確認してください。",
+    "notice": "子ども向けの教室名で案内されています。大人のみの参加、人数、所要時間については申込み時にご確認ください。",
+    "morning": false,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "電話で日程相談",
+      "黄檗宗の坐禅教室"
+    ],
+    "official": "https://rinnou.net/zen/meeting/?conditions%5B%5D=zazenkai&prefectures=%E5%B2%A1%E5%B1%B1%E7%9C%8C",
+    "photoUrl": null,
+    "sources": [
+      {
+        "label": "臨黄ネット公式｜岡山県の坐禅会・本光寺",
+        "url": "https://rinnou.net/zen/meeting/?conditions%5B%5D=zazenkai&prefectures=%E5%B2%A1%E5%B1%B1%E7%9C%8C"
+      },
+      {
+        "label": "Yahoo!マップ｜本光禅寺の所在地",
+        "url": "https://map.yahoo.co.jp/v3/place/a-CSHTJaAes"
+      }
+    ],
+    "coordinateSource": "Yahoo!マップの本光禅寺（津山市一宮332・0868-27-0328）の掲載座標。https://map.yahoo.co.jp/v3/place/a-CSHTJaAes",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "yotoin",
+    "name": "養東院",
+    "reading": "ようとういん",
+    "english": "YOTOIN",
+    "city": "岡山市",
+    "area": "bizen",
+    "region": "備前",
+    "sect": "真言宗",
+    "description": "岡山市北区間倉の山寺。枯山水の庭があり、希望に応じた予約制の座禅体験が案内されています。",
+    "image": null,
+    "alt": "",
+    "address": "岡山県岡山市北区間倉921",
+    "lat": 34.7839,
+    "lng": 133.774853,
+    "phone": "086-299-0015",
+    "price": "要問い合わせ",
+    "priceNote": "体験料金は予約時に確認",
+    "schedule": "予約制・希望日時を相談",
+    "visit": "一般拝観の時間は要問い合わせ",
+    "fullSchedule": "岡山県観光連盟の公式記事（2025年4月15日）に、座禅を予約制で体験できる旨の案内があります。定例開催日や開始時刻、座禅単独の所要時間は明記されていません。希望する日程を電話で相談してください。",
+    "booking": "ほうろく灸・座禅・祈祷などは事前予約制、500円〜の目安と案内されています。電話086-299-0015の通話しやすい時間帯は18:00〜20:00。希望日時・内容・料金を直接確認して予約してください。",
+    "bookingLabel": "電話で座禅体験を予約相談",
+    "bookingUrl": "tel:0862990015",
+    "access": "岡山市北区間倉の山上にあります。参道には狭い箇所があるため、車でのアクセス経路を事前に確認してください。駐車場あり。",
+    "notice": "500円〜は2025年4月の公式観光記事にある体験料金の目安で、座禅単独の確定料金ではありません。現在の受入状況と総額は予約時に確認してください。",
+    "morning": false,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "予約制の体験",
+      "山寺の庭"
+    ],
+    "official": "https://www.facebook.com/profile.php?id=100014278899004",
+    "photoUrl": "https://www.okayama-kanko.jp/okatabi/1473/page",
+    "sources": [
+      {
+        "label": "岡山観光WEB公式｜養東院・体験と連絡先",
+        "url": "https://www.okayama-kanko.jp/okatabi/1473/page"
+      },
+      {
+        "label": "養東院公式Facebook（観光機関からリンク）",
+        "url": "https://www.facebook.com/profile.php?id=100014278899004"
+      }
+    ],
+    "coordinateSource": "岡山県観光連盟公式記事の地図data-marker-lat/lng（養東院）。",
+    "researchNote": "記事本文の「真言宗三室派」は表記揺れ/誤植と見られるため宗派名を御室派としているが、寺院公式での宗派の再確認が望ましい。宗派表記を確実にするなら「真言宗」とする。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "senkoji",
+    "name": "千光寺",
+    "reading": "せんこうじ",
+    "english": "SENKOJI",
+    "city": "津山市",
+    "area": "mimasaka",
+    "region": "美作",
+    "sect": "宗派は要確認",
+    "description": "津山市林田の千光寺。寺院サイトで月1回の坐禅会が案内され、初めての方の参加も歓迎しています。",
+    "image": "assets/new-senkoji.jpg",
+    "alt": "津山市の千光寺（撮影当時の景観）",
+    "address": "岡山県津山市林田1703",
+    "lat": 35.0641953,
+    "lng": 134.0124894,
+    "phone": "0868-22-7978",
+    "price": "要問い合わせ",
+    "priceNote": "公式サイトに参加費の明記なし",
+    "schedule": "月1回・日時は電話確認",
+    "visit": "観光協会では見学自由と案内。堂内・坐禅は要確認",
+    "fullSchedule": "寺院公式サイトに、月に一度の坐禅会を開催し、初心者から経験者まで参加できると案内があります。具体的な曜日・日時、所要時間は掲載されていません。",
+    "booking": "電話で直近の開催日、予約の要否、参加費、初参加の集合時刻を確認してください。問い合わせ先は津山観光WEB掲載の0868-22-7978です。",
+    "bookingLabel": "電話で次の坐禅会を確認",
+    "bookingUrl": "tel:0868227978",
+    "access": "津山観光WEBでは中国自動車道・津山ICから車約10分、JR津山駅から徒歩約20分、駐車場ありと案内しています。",
+    "notice": "坐禅会の具体的な開催日・料金・予約要否は公開されていないため、参加前の問い合わせが必要です。春の桜の写真は撮影当時の景観です。",
+    "morning": false,
+    "walkin": false,
+    "chair": false,
+    "tags": [
+      "月1回の坐禅会",
+      "日時・料金は電話確認"
+    ],
+    "official": "https://tuyama-senkouji.com/",
+    "photoUrl": "https://tuyama-senkouji.com/",
+    "sources": [
+      {
+        "label": "千光寺公式｜月1回の坐禅会",
+        "url": "https://tuyama-senkouji.com/"
+      },
+      {
+        "label": "津山観光WEB公式｜千光寺・連絡先",
+        "url": "https://www.tsuyamakan.jp/rcCEUdxa/W0CaMqxg"
+      }
+    ],
+    "coordinateSource": "寺院公式のGoogle埋込地図中心。所在地の目安。",
+    "researchNote": "曹洞宗の宗派名は第三者案内で確認。公式サイトに宗派表示が見当たらないため、厳密に一次情報のみとする場合は宗派を要確認に置換。観光協会のホームページ欄は別寺のsyoutokuji.infoを指しており採用していない。",
+    "checkedAt": "2026-10-31"
+  }
+]
