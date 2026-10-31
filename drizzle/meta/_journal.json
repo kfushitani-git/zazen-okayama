@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793435640358,
+      "tag": "0000_romantic_tarot",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793437665540,
+      "tag": "0001_lonely_namor",
+      "breakpoints": true
+    }
+  ]
+}
