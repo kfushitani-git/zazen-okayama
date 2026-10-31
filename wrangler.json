@@ -1,0 +1,42 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zazen-okayama",
+  "account_id": "fa64835ea32ca195daf70d225e477a39",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "assets": {
+    "run_worker_first": [
+      "/",
+      "/admin",
+      "/admin/*",
+      "/api/*",
+      "/media/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "zazen-records",
+      "database_id": "e158a311-3a41-4cec-b1b1-c8010e34bda5",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "zazen-photos"
+    }
+  ],
+  "vars": {
+    "AUTH_PROVIDER": "cloudflare-access",
+    "CF_ACCESS_TEAM_DOMAIN": "https://sweet-wildflower-bd99.cloudflareaccess.com",
+    "CF_ACCESS_AUD": "1be7634de300203846715f77ea3019e8210ff5fabc6459e9c68d6aad129403bd"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
