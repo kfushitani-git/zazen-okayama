@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {generateKeyPair,exportJWK,createLocalJWKSet,SignJWT} from 'jose';
+import {accessIssuer,accessToken,verifyAccessIdentity,resolveSiteIdentity} from '../lib/cloudflare-access.mjs';
+const {privateKey,publicKey}=await generateKeyPair('RS256');
+const jwk=await exportJWK(publicKey);jwk.kid='test-key';jwk.alg='RS256';
+const keys=createLocalJWKSet({keys:[jwk]});
+const config={provider:'cloudflare-access',teamDomain:'https://zazen-test.cloudflareaccess.com',audience:'test-app'};
+const now=Math.floor(Date.now()/1000);
+async function token(change={},remove=[]){const claims={iss:config.teamDomain,aud:['test-app'],sub:'editor-id',email:'editor@example.test',type:'app',iat:now,exp:now+120,...change};for(const k of remove)delete claims[k];return new SignJWT(claims).setProtectedHeader({alg:'RS256',kid:'test-key'}).sign(privateKey);}
+test('valid signed Access application identity',async()=>{assert.equal((await verifyAccessIdentity(await token(),config,keys)).email,'editor@example.test');});
+for(const[name,change]of [['wrong issuer',{iss:'https://other.cloudflareaccess.com'}],['wrong audience',{aud:['another-app']}],['expired',{exp:now-60}],['not yet valid',{nbf:now+120}],['service token without user email',{email:null}],['wrong token type',{type:'org'}]])test(name,async()=>{assert.equal(await verifyAccessIdentity(await token(change),config,keys),null);});
+test('missing expiration fails closed',async()=>{assert.equal(await verifyAccessIdentity(await token({},['exp']),config,keys),null);});
+test('tampered signature is rejected',async()=>{const t=await token(),parts=t.split('.');parts[2]=(parts[2][0]==='A'?'B':'A')+parts[2].slice(1);assert.equal(await verifyAccessIdentity(parts.join('.'),config,keys),null);});
+test('private draft image may authenticate via signed Access cookie',async()=>{const headers=new Headers({cookie:`other=value; CF_Authorization=${await token()}`});const identity=await resolveSiteIdentity(headers,config,()=>{throw new Error('Must not use Sites identity');},keys);assert.equal(identity.email,'editor@example.test');});
+test('duplicate Access cookies are rejected',()=>{assert.equal(accessToken(new Headers({cookie:'CF_Authorization=one; CF_Authorization=two'})),null);});
+test('unverified email and spoofed Sites headers never authorize Cloudflare mode',async()=>{const headers=new Headers({'cf-access-authenticated-user-email':'editor@example.test','oai-authenticated-user-email':'editor@example.test','oai-authenticated-user-id':'forged'});assert.equal(await resolveSiteIdentity(headers,config,()=>({email:'editor@example.test'}),keys),null);});
+test('bad header cannot fall back to a valid cookie',async()=>{const headers=new Headers({'cf-access-jwt-assertion':'bad',cookie:`CF_Authorization=${await token()}`});assert.equal(await resolveSiteIdentity(headers,config,()=>null,keys),null);});
+test('unknown providers fail closed and Sites mode keeps its existing identity',async()=>{const user={email:'owner@example.test'};assert.equal(await resolveSiteIdentity(new Headers(),{provider:'unknown'},()=>user),null);assert.equal(await resolveSiteIdentity(new Headers(),{provider:'sites'},()=>user),user);});
+test('key endpoints are restricted to HTTPS Cloudflare team origins',()=>{for(const value of ['http://x.cloudflareaccess.com','https://example.com','https://x.cloudflareaccess.com/other','https://x.cloudflareaccess.com:8443'])assert.throws(()=>accessIssuer(value));});
