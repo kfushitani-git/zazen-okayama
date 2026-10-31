@@ -1,0 +1,96 @@
+[
+  {
+    "id": "entsuji",
+    "file": "entsuji.jpg",
+    "title": "Entsuji 01.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Entsuji_01.JPG",
+    "artist": "Reggaeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "表示時のトリミングのみ",
+    "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Entsuji_01.JPG/1920px-Entsuji_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id": "hofukuji",
+    "file": "hofukuji.jpg",
+    "title": "Iyama Hōfuku-ji building 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Iyama_H%C5%8Dfuku-ji_building_1.jpg",
+    "artist": "Fabimaru",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "表示時のトリミングのみ",
+    "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Iyama_H%C5%8Dfuku-ji_building_1.jpg/1920px-Iyama_H%C5%8Dfuku-ji_building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "id": "sogenji",
+    "file": "sogenji.jpg",
+    "title": "Sogenji 05.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Sogenji_05.JPG",
+    "artist": "by Reggaeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "表示時のトリミングのみ",
+    "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sogenji_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "hero",
+    "file": "hero.jpg",
+    "title": "Sogenji 16.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Sogenji_16.JPG",
+    "artist": "by Reggaeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "表示時のトリミングのみ",
+    "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sogenji_16.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "sogenji-garden",
+    "file": "sogenji-garden.jpg",
+    "title": "Sogenji 10.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Sogenji_10.JPG",
+    "artist": "by Reggaeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "表示時のトリミングのみ",
+    "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sogenji_10.JPG"
+  },
+  {
+    "id": "daitsuji",
+    "name": "大通寺",
+    "file": "new-daitsuji.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Daitsu-ji_Temple_in_Yakage_town.jpg",
+    "artist": "ブルーノ・プラス",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "changes": "表示領域に合わせたトリミングのみ",
+    "description": "大通寺本堂",
+    "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Daitsu-ji_Temple_in_Yakage_town.jpg/1280px-Daitsu-ji_Temple_in_Yakage_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2026-09"
+  },
+  {
+    "id": "kannonji",
+    "name": "観音寺",
+    "file": "new-kannonji.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kan-on-ji_(Sho-o),_sanmon.jpg",
+    "artist": "Saigen Jiro",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "表示領域に合わせたトリミングのみ",
+    "description": "天台宗弘誓山観音寺 (勝央町) 山門",
+    "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kan-on-ji_%28Sho-o%29%2C_sanmon.jpg/1280px-Kan-on-ji_%28Sho-o%29%2C_sanmon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2021-02-23"
+  },
+  {
+    "id": "senkoji",
+    "name": "千光寺",
+    "file": "new-senkoji.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E5%85%89%E5%AF%BA%E3%81%AE%E3%81%97%E3%81%A0%E3%82%8C%E6%A1%9C_(50153093033).jpg",
+    "artist": "津山市 / 津山市立図書館 Public Library of Tsuyama",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "表示領域に合わせたトリミングのみ",
+    "description": "タイトル(title):千光寺のしだれ桜0155\n\n撮影者: 津山市\n撮影年月日: 2020年3月24日\n著作権: 津山市 (Copyright © Tsuyama city)\n二次利用: CC BY 4.0",
+    "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%8D%83%E5%85%89%E5%AF%BA%E3%81%AE%E3%81%97%E3%81%A0%E3%82%8C%E6%A1%9C_%2850153093033%29.jpg/1280px-%E5%8D%83%E5%85%89%E5%AF%BA%E3%81%AE%E3%81%97%E3%81%A0%E3%82%8C%E6%A1%9C_%2850153093033%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2020-03-24"
+  }
+]
